@@ -1,0 +1,57 @@
+
+<html>
+
+    <head>
+        <title>My Selfie App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link href="style.css" rel="stylesheet">
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    
+    </head>
+    
+    <body>
+        <center>
+            <h1>Collage Web App </h1>
+            <hr>
+            <h4>Please press allow as soon as popup comes. After you give a voice command</h4>
+    
+            <h3>Say "selfie" for Taking your selfie to make a Collage</h3>
+    
+            <button class="btn btn-lg btn-primary" onclick="start()">Start</button>
+            <h4>Press the Start button</h4>
+    
+            <label>Your webcam : </label>
+            <div id="camera"></div>
+    
+            <br>
+    
+            <label>Your selife Will Display Here: </label>
+            <br>
+            <div id="resultRow">
+                <div id="result1" class="column">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg">
+                </div> 
+    
+                <div id="result2" class="column">
+                    <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=">
+                </div>
+    
+                <div id="result3" class="column">
+                    <img src="https://image.shutterstock.com/image-photo/high-mountain-morning-time-beautiful-260nw-1384588922.jpg">
+                </div>
+            </div>
+        </center>
+
+        <div id="div1">Developer - Aleena Kureishy</div>
+    
+    
+        <script src="main.js"></script>
+    </body>
+    
+    </html>
+    
